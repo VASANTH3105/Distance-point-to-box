@@ -1,9 +1,10 @@
 # Distance-point-to-box
 
+This is a Python program that uses the OpenCV library to capture video from a camera (specified by cap = cv2.VideoCapture(0)), and perform motion detection on the captured frames.
+
 ![WhatsApp Image 2023-03-19 at 17 36 06](https://user-images.githubusercontent.com/122204153/226174068-a4d41092-a874-4b41-a1e8-29504a5805b0.jpg)
 
 
-This is a Python program that uses the OpenCV library to capture video from a camera (specified by cap = cv2.VideoCapture(0)), and perform motion detection on the captured frames.
 
 The program first captures two frames from the camera and flips them horizontally using the cv2.flip() function. These two frames are then used as the "previous" and "new" frames for motion detection.
 
